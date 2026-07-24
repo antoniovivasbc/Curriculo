@@ -4,7 +4,7 @@ export const LanguagesComponent = (languages: LanguageType) => {
     const languageItems = languages.languages.map((language) => {
         return `
             <li class="flex items-center justify-between gap-4 text-sm">
-                <span>${language.language}</span>
+                <span class="text-gray-500">${language.language}</span>
                 <span class="text-blue-900 font-medium">${language.level}</span>
             </li>
         `

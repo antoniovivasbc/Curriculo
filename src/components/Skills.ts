@@ -8,8 +8,8 @@ export const SkillsComponent = (skills: SkillType) => {
                 <ul class="flex flex-wrap flex-col gap-2">
                     ${skill.skills.map((skill) =>
             `<li class="text-sm flex gap-2 items-center">
-                            <i class="fa-solid fa-circle text-[5px]"></i>
-                            <span class="text-sm">${skill}</span>
+                            <i class="fa-solid fa-circle text-[5px] text-gray-500"></i>
+                            <span class="text-sm text-gray-500">${skill}</span>
                         </li>`
         ).join('')}
                 </ul>
