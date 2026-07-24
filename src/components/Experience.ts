@@ -4,7 +4,7 @@ export const ExperienceComponent = (experienceData: ExperienceType) => {
     console.log(experienceData);
     const experienceItems = experienceData.experiences.map((experience) => {
         return `
-            <div class="flex flex-col gap-4">
+            <div class="flex flex-col gap-2">
                 <div class="flex justify-between">
                     <div class="flex gap-2">
                         <p class="text-sm font-semibold text-blue-900">${experience.hole}</p>
@@ -19,7 +19,7 @@ export const ExperienceComponent = (experienceData: ExperienceType) => {
         `;
     }).join('');
     return `
-        <div class="flex flex-col gap-4 pt-4">
+        <div class="flex flex-col gap-4 pt-4 border-b border-gray-200 pb-4">
             <div class="flex items-center gap-4">
                 <i class="fa-solid fa-${experienceData.icon} text-blue-950 w-4 h-4 text-center"></i>
                 <h2 class="text-xl font-semibold text-blue-950">${experienceData.title}</h2>
