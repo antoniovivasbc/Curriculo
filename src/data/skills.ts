@@ -1,4 +1,5 @@
-export const skillsData = [
+import { SkillType } from "../types/Skills";
+export const skillsData: SkillType[] = [
     {
         title: "Backend",
         skills: ['PHP', 'Laravel', 'Livewire', 'Inertia.js']

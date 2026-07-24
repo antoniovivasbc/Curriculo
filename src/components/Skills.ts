@@ -18,8 +18,10 @@ export const SkillsComponent = (skills: SkillType[]) => {
     }).join('')
 
     return `
-        <div class="flex flex-col gap-4 border-b border-r border-gray-200 py-4">
-            ${skillsItems}
+        <div class=" border-r border-gray-200 my-4 w-fit">
+            <div class="border-b border-gray-200 mx-4 flex flex-col gap-4 pb-4">
+                ${skillsItems}
+            </div>
         </div>
     `
 }
