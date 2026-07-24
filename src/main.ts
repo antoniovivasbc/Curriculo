@@ -3,6 +3,8 @@ import { HeaderComponent } from "./components/Header";
 import { skillsData } from "./data/skills";
 import { languagesData } from "./data/languages";
 import { SidebarComponent } from "./components/Sidebar";
+import { overviewData } from "./data/overview";
+import { OverviewComponent } from "./components/Overview";
 
 const app = document.querySelector<HTMLDivElement>('#app')
 
@@ -14,6 +16,8 @@ app.innerHTML = `
     ${HeaderComponent(headerData)}
     <div class="flex gap-6">
         ${SidebarComponent({ skills: skillsData, languages: languagesData })}
-        <main class="flex-1 py-4"></main>
+        <main class="flex-1 py-4">
+            ${OverviewComponent(overviewData)}
+        </main>
     </div>
 `;
