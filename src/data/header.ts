@@ -3,7 +3,7 @@ import { HeaderType } from "../types/Header";
 export const headerData: HeaderType = {
     name: "Antonio Vivas",
     hole: "Full Stack Developer",
-    description: "Desenvolvedor Full stack com mais de 4 anos de experiência no desenvolvimento de aplicações web modernas, utilizando Laravel, Vue.js, Inertia.js e PostgreSQL. Focado na entrega de soluções escaláveis, de alta performance e que geram valor para o negócio.",
+    description: "Desenvolvedor Full Stack com sólida trajetória no desenvolvimento de aplicações web, atuando desde 2019 em projetos acadêmicos, freelances e, desde 2022, no desenvolvimento profissional de sistemas empresariais de grande porte. Possuo experiência na criação e evolução de plataformas de gestão e e-commerce utilizando Laravel, Vue.js, Livewire e Alpine.js, desenvolvendo soluções completas que abrangem modelagem de dados, APIs REST, integrações com gateways de pagamento e transportadoras, além da construção de interfaces modernas e responsivas.",
     info: {
         phone: {
             icon: "fa-solid fa-phone",

@@ -6,8 +6,9 @@ export const ExperienceComponent = (experienceData: ExperienceType) => {
         return `
             <div class="flex flex-col gap-2">
                 <div class="flex justify-between">
-                    <div class="flex gap-2">
+                    <div class="flex gap-2 items-center">
                         <p class="text-sm font-semibold text-blue-900">${experience.hole}</p>
+                        <span class="text-sm text-blue-900">|</span>
                         <p class="text-sm font-semibold text-blue-900">${experience.company}</p>
                     </div>
                     <p class="text-sm font-semibold text-blue-900">${experience.dateFrom} - ${experience.dateTo}</p>
