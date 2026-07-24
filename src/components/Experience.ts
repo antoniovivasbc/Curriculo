@@ -1,7 +1,7 @@
 import type { ExperienceType } from "../types/Experience";
 
 export const ExperienceComponent = (experienceData: ExperienceType) => {
-    console.log(experienceData);
+
     const experienceItems = experienceData.experiences.map((experience) => {
         return `
             <div class="flex flex-col gap-2">

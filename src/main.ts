@@ -7,6 +7,9 @@ import { overviewData } from "./data/overview";
 import { OverviewComponent } from "./components/Overview";
 import { experienceData } from "./data/experience";
 import { ExperienceComponent } from "./components/Experience";
+import { personalProjectsData } from "./data/personalProjects";
+import { PersonalProjectsComponent } from "./components/PersonalProjects";
+
 const app = document.querySelector<HTMLDivElement>('#app')
 
 if (!app) {
@@ -20,6 +23,7 @@ app.innerHTML = `
         <main class="flex-1 py-4">
             ${OverviewComponent(overviewData)}
             ${ExperienceComponent(experienceData)}
+            ${PersonalProjectsComponent(personalProjectsData)}  
         </main>
     </div>
 `;
