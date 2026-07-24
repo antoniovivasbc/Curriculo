@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+body {
+    margin: 1.5rem 2rem;
+    padding: 0;
+}
