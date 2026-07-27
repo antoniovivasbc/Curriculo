@@ -9,6 +9,7 @@ import { experienceData } from "./data/experience";
 import { ExperienceComponent } from "./components/Experience";
 import { personalProjectsData } from "./data/personalProjects";
 import { PersonalProjectsComponent } from "./components/PersonalProjects";
+import { SkillsMobileComponent } from "./components/SkillsMobile";
 
 const app = document.querySelector<HTMLDivElement>('#app')
 
@@ -24,6 +25,7 @@ app.innerHTML = `
             ${OverviewComponent(overviewData)}
             ${ExperienceComponent(experienceData)}
             ${PersonalProjectsComponent(personalProjectsData)}  
+            ${SkillsMobileComponent(skillsData)}
         </main>
     </div>
 `;
