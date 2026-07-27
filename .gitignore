@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# Build (Pages uses /docs)
+dist/
+
 # Local env
 .env
 .env.*
