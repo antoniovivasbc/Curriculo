@@ -22,13 +22,13 @@ export const headerData: HeaderType = {
         },
         linkedin: {
             icon: "fa-brands fa-linkedin",
-            value: "linkedin.com/in/antonio-vivas-cavalcante",
-            link: "https://www.linkedin.com/in/antonio-vivas-cavalcante"
+            value: "https://www.linkedin.com/in/antonio-vivas-41795720a/",
+            link: "https://www.linkedin.com/in/antonio-vivas-41795720a/"
         },
         github: {
             icon: "fa-brands fa-github",
-            value: "github.com/antonio-vivas-cavalcante",
-            link: "https://github.com/antonio-vivas-cavalcante"
+            value: "https://github.com/antoniovivasbc",
+            link: "https://github.com/antoniovivasbc"
         }
     }
 }
