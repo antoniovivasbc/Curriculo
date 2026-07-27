@@ -10,7 +10,7 @@ type SidebarType = {
 
 export const SidebarComponent = ({ skills, languages }: SidebarType) => {
     return `
-        <aside class="w-fit flex flex-col gap-6 border-r border-gray-200 pr-6 my-4">
+        <aside class="w-fit flex-col gap-6 border-r border-gray-200 pr-6 my-4 hidden md:flex">
             <div class="border-b border-gray-200 pb-6">
                 ${SkillsComponent(skills)}
             </div>
